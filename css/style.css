@@ -1,0 +1,153 @@
+body {
+    background-image:url(../images/bg2.jpg) ;
+    background-size: cover;
+    margin-left: 280px;
+    font-family: 'Roboto', sans-serif;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    overflow: hidden;
+  
+    
+}
+
+.topnav {
+    position: fixed;
+    height: auto;
+    width: fit-content;
+    text-align: center;
+    border-color: black;
+    height: 20px;
+    
+  
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    border-color: black;
+    color:rgb(255, 255, 255);
+    padding: 15px 50px;
+    background-color:rgb(33, 130, 155);
+    font-size: 17px;
+    
+  }
+  
+  
+  .topnav a:hover {
+    background-color: :rgb(16, 96, 150);
+    color: black;
+  }
+  
+
+  .topnav a.active {
+    background-color: #ffffff;
+    color:rgb(16, 96, 150);
+  }
+  .topnav a.active1{
+    background-color:rgb(10, 82, 100);
+      color: rgb(255, 255, 255);
+  }
+  .topnav a.active:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: rgb(0, 0, 0);
+  }
+  .topnav a.active1:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: rgb(0, 0, 0);
+  }
+  
+
+.container h1{
+   
+    color: antiquewhite!important;
+    padding: 15px;
+    width: fit-content;
+    
+    margin-top: 170px;
+    background-color:rgb(10, 82, 100);
+    font-size: 45px;
+  
+    
+
+}
+.container1 {
+    margin-top: 1px;
+    display: flex;
+    
+}
+ .row{
+    width: 35%;
+    text-align: left;
+    padding-top: 15px;
+    
+}
+.row1{
+    color: rgb(255, 255, 255);
+    font-size:22px;
+    padding: 1px 5px;
+    margin-left: 250px;
+    color: rgb(255, 255, 255);
+}
+.res{
+   
+    color: rgb(29, 98, 126);
+    width: 20px;
+    display: inline;
+    margin-top: 10px;
+    font-weight: bolder;
+    font-size: 35px;
+    
+    
+}
+
+.p1{
+    background-color: #ffffff;
+    color: rgb(33, 130, 155);
+    padding: 12px;
+    font-size: 25px;
+    width: fit-content;
+    
+}
+.p1 a{
+    text-decoration: none;
+    color: rgb(33, 130, 155);
+}
+
+.p2{
+   color: #ffffff;
+   background-color:rgb(67, 178, 206);
+   width: fit-content;
+   padding: 12px;
+  
+   font-size:25px ;
+}
+.p2 a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.navbar ul li:nth-child(5){
+    background-color: rgba(219, 150, 2,0.8);
+    color: rgb(247, 247, 247)222);
+    margin: 0;
+    padding: 16px 20px;
+   
+}
+.navbar ul li:nth-child(5):hover{
+    background-color: rgba(87, 84, 84, 0.692);
+    color: aliceblue;
+  
+}
+.navbar ul li:nth-child(1){
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 16px 20px;
+   
+}
+.navbar ul li:nth-child(1):hover{
+    background-color: rgba(252, 252, 252, 0.534);
+  
+}
